@@ -44,10 +44,10 @@ members. These tools do not receive regular product updates or security updates.
 
 | | Tool | Maintained? | Parity? |
 |-|------|-------------|---------|
-| ![Saleforce][sfimg] | **[Salesforce SDK](sfsdk)** Use the Box content APIs from your Salesforce application. | 🔸 Limited, by Box and community members | 🔸 Partial |
-| ![Ruby][rubyimg] | **[Ruby SDK](rubysdk)** Use the Box content APIs from your server-side Ruby application. | 🔸 Limited, by Box and community members | 🔸 Partial |
-| ![Javascript][jsimg] | **[Client-Side JS SDK](jssdk)** Use the Box content APIs from your client-side Javascript application. | 🔸 Limited, by Box and community members | 🔸 Partial |
-| ![Chrome App SDK][chromeimg] | **[Chrome App SDK](chromesdk)** Use the Box content APIs from your Chrome App. | 🔸 Limited, by Box and community members | 🔸 Partial |
+| ![Saleforce][sfimg] | **[Salesforce SDK][sfsdk]** Use the Box content APIs from your Salesforce application. | 🔸 Limited, by Box and community members | 🔸 Partial |
+| ![Ruby][rubyimg] | **[Ruby SDK][rubysdk]** Use the Box content APIs from your server-side Ruby application. | 🔸 Limited, by Box and community members | 🔸 Partial |
+| ![Javascript][jsimg] | **[Client-Side JS SDK][jssdk]** Use the Box content APIs from your client-side Javascript application. | 🔸 Limited, by Box and community members | 🔸 Partial |
+| ![Chrome App SDK][chromeimg] | **[Chrome App SDK][chromesdk]** Use the Box content APIs from your Chrome App. | 🔸 Limited, by Box and community members | 🔸 Partial |
 
 > **Maintained:** Projects with limited maintenance are updated by Box in collaboration with the community. They receive irregular security updates. If you are a Box customer on a premium support plan, please contact customer services for any urgent feature requests for these tools. For other support queries with these projects please visit GitHub or [our Platform support forum](https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum).
 > 
