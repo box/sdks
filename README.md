@@ -24,7 +24,7 @@ receive regular product updates, as well as security updates. 
 Extend your application with pre-built UI components to browse, share, and
 preview files on Box.
 
-|   |   |   |
+
 | - | - | - |
 | ![Browse][browseimg] | ![Share][shareimg] | ![Preview][previewimg] |
 | **Browse** Navigate and manipulate your files on Box using our pre-built UI | **Share** Share files with our pre-built UI elements for file & folder collaboration | **Preview** Preview over 120 files types, from PDFs to HD videos, with a rich preview experience |
