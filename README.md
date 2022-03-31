@@ -79,3 +79,18 @@ members. These tools do not receive regular product updates or security updates.
 [rubysdk]: https://github.com/cburnette/boxr
 [chromeimg]: images/chrome.png
 [chromesdk]: https://github.com/box/Chrome-App-SDK
+
+# Collection of sample code
+The following sections aggregate existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community
+
+You can reference it and use it as inspiration. Support for these projects is provided by the individual maintainers and might vary from one project to the next.
+
+For Box's official SDKs or CLI, and any other officially supported examples make sure to head over to [developer website](https://developer.box.com/).
+
+|  Link   | Description |
+|-----|--|
+|   [PowerShell Automations](https://github.com/kylefernandadams/box-powershell-automations)  | Box PowerShell Automations are example scripts to help reduce manual overhead for repetitive tasks. |
+|    [Box/Jira Integration](https://github.com/goodgrid/etsi-document-control) | The interface between Box and Jira can be used to let a Box Relay workflow signal to Jira that a task can be progressed |
+|  [Box Java SDK Samples](https://github.com/box/box-java-sdk-samples)   | Includes example sample that can create Box App User account and leverages webhook and AWS service. |
+|    [Box Samples](https://github.com/box/samples) | Repo contains Box SDKs examples in Node, Java, Angular and .Net languages. |
+| [Collection of Box Samples](https://github.com/box-community) | List of various sample and demo applications |
