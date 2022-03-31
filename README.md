@@ -81,9 +81,11 @@ members. These tools do not receive regular product updates or security updates.
 [chromesdk]: https://github.com/box/Chrome-App-SDK
 
 # Sample code
-The following sections aggregate existing demo application build with Box SDKs or CLI and showcases the functionality.
+The following sections aggregate existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community
 
-You can reference it and use it as inspiration.  Authors of sample code might not be updating the code as SDKs or CLI are updated, which could lead to failing code.
+You can reference it and use it as inspiration. Support for these projects is provided by the individual maintainers and might vary from one project to the next.
+
+For Box's official SDKs or CLI, and any other officially supported examples make sure to head over to official tool page and search for examples.
 
 ## Developed by Box
 
