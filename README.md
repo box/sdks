@@ -87,9 +87,6 @@ You can reference it and use it as inspiration. Support for these projects is pr
 
 For Box's official SDKs or CLI, and any other officially supported examples make sure to head over to [developer website](https://developer.box.com/).
 
-
-## Developed by community
-
 |  Link   | Description |
 |-----|--|
 |   [PowerShell Automations](https://github.com/kylefernandadams/box-powershell-automations)  | Box PowerShell Automations are example scripts to help reduce manual overhead for repetitive tasks. |
