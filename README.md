@@ -83,6 +83,8 @@ members. These tools do not receive regular product updates or security updates.
 # Sample code
 The following sections aggregate existing demo application build with Box SDKs or CLI and showcases the functionality.
 
+You can reference it and use it as inspiration.  Authors of sample code might not be updating the code as SDKs or CLI are updated, which could lead to failing code.
+
 ## Developed by Box
 
 |  Link   | Description |
