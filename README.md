@@ -94,3 +94,4 @@ For Box's official SDKs or CLI, and any other officially supported examples make
 |  [Box Java SDK Samples](https://github.com/box/box-java-sdk-samples)   | Includes example sample that can create Box App User account and leverages webhook and AWS service. |
 |    [Box Samples](https://github.com/box/samples) | Repo contains Box SDKs examples in Node, Java, Angular and .Net languages. |
 | [Collection of Box Samples](https://github.com/box-community) | List of various sample and demo applications |
+| [iOS Example for Browse Files in Box](https://github.com/jlawton/BrowseSDK) | A simple SDK for browsing files stored on Box using iOS. |
