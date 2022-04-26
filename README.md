@@ -48,6 +48,7 @@ members. These tools do not receive regular product updates or security updates.
 | ![Ruby][rubyimg] | **[Ruby SDK][rubysdk]** Use the Box content APIs from your server-side Ruby application. | 🔸 Limited, by Box and community members | 🔸 Partial |
 | ![Javascript][jsimg] | **[Client-Side JS SDK][jssdk]** Use the Box content APIs from your client-side Javascript application. | 🔸 Limited, by Box and community members | 🔸 Partial |
 | ![Chrome App SDK][chromeimg] | **[Chrome App SDK][chromesdk]** Use the Box content APIs from your Chrome App. | 🔸 Limited, by Box and community members | 🔸 Partial |
+| ![R SDK][rimg] | **[R SDK][rsdk]** Integrate Box APIs into your R workflow. | 🔸 Limited, by Box and community members | 🔸 Partial |
 
 > **Maintained:** Projects with limited maintenance are updated by Box in collaboration with the community. They receive irregular security updates. If you are a Box customer on a premium support plan, please contact customer services for any urgent feature requests for these tools. For other support queries with these projects please visit GitHub or [our Platform support forum](https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum).
 > 
@@ -79,6 +80,8 @@ members. These tools do not receive regular product updates or security updates.
 [rubysdk]: https://github.com/cburnette/boxr
 [chromeimg]: images/chrome.png
 [chromesdk]: https://github.com/box/Chrome-App-SDK
+[rimg]: images/rlogo.png
+[rsdk]: https://github.com/r-box/boxr
 
 # Collection of sample code
 The following sections aggregate existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community
