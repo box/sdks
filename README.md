@@ -13,7 +13,7 @@ receive regular product updates, as well as security updates. 
 | [![Node][nodeimg]][nodesdk] | [Node SDK][nodesdk] - Use the Box content APIs from your server-side Node application | ☑️ Full | ☑️ Full |
 | [![CLI][cliimg]][cli] | [CLI][cli] - Use the Box content APIs from your command line | ☑️ Full | ☑️ Full |
 | [![iOS][iosimg]][iossdk] | [iOS Content SDK][iossdk] - Use the Box content APIs from your iOS app | ☑️ Full | 🔸Partial |
-| [![Android][androidimg]][androidsdk] | [Android Content SDK][androidsdk] - Use the Box content APIs from your Android app | ☑️ Full | 🔸Partial |
+| [![Android][androidimg]][androidsdk] | [Android Content SDK][androidsdk] - Use the Box content APIs from your Android app | End of support as of May 31st, 2023 | 🔸Partial |
 
 > **Maintained:** Fully maintained projects are actively developed by Box. They receive the latest security updates and new features. For support with these projects please visit GitHub or [our Platform support forum](https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum).
 > 
@@ -84,17 +84,6 @@ members. These tools do not receive regular product updates or security updates.
 [rsdk]: https://github.com/r-box/boxr
 
 # Collection of sample code
-The following sections aggregate existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community
+You can find sample code catalog on [developer website](https://developer.box.com/sample-code/). The abovementioned section aggregates existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community.
 
 You can reference it and use it as inspiration. Support for these projects is provided by the individual maintainers and might vary from one project to the next.
-
-For Box's official SDKs or CLI, and any other officially supported examples make sure to head over to [developer website](https://developer.box.com/).
-
-|  Link   | Description |
-|-----|--|
-|   [PowerShell Automations](https://github.com/kylefernandadams/box-powershell-automations)  | Box PowerShell Automations are example scripts to help reduce manual overhead for repetitive tasks. |
-|    [Box/Jira Integration](https://github.com/goodgrid/etsi-document-control) | The interface between Box and Jira can be used to let a Box Relay workflow signal to Jira that a task can be progressed |
-|  [Box Java SDK Samples](https://github.com/box/box-java-sdk-samples)   | Includes example sample that can create Box App User account and leverages webhook and AWS service. |
-|    [Box Samples](https://github.com/box/samples) | Repo contains Box SDKs examples in Node, Java, Angular and .Net languages. |
-| [Collection of Box Samples](https://github.com/box-community) | List of various sample and demo applications |
-| [iOS Example for Browse Files in Box](https://github.com/jlawton/BrowseSDK) | A simple SDK for browsing files stored on Box using iOS. |
