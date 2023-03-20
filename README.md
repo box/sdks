@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/box-dev-logo.png" alt= “box-dev-logo” width="30%" height="50%">
+</p>
+
 # Official Box Tools
 
 The following tools are actively developed and supported by Box. These tools
