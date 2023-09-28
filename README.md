@@ -7,7 +7,42 @@
 The following tools are actively developed and supported by Box. These tools
 receive regular product updates, as well as security updates. 
 
-## SDK Client Libraries & CLIs
+## SDK Client Libraries & CLI
+
+### Next generation SDKs
+
+The latest generation Box Python SDK and Box Typescript
+SDK are designed to elevate the developer
+experience and streamline your integration
+with the Box Content Cloud.
+
+Here's what you can expect from the new SDKs:
+
+* **Full API Support**: New Box SDKs empower developers
+ with complete coverage of the Box API ecosystem.
+ You can access all the latest features and
+functionalities offered by Box and build feature-rich applications.
+* **Rapid API Updates**: The new auto-generation development
+approach allows for adding Box APIs to
+SDKs at a much faster pace (in a matter of days). 
+This means you can leverage the most up-to-date
+features in your applications without delay.
+* **Embedded Documentation**:  All objects and parameters
+are documented directly in the source code of the SDK
+so all the necessary information is stored in one place.
+* **Enhanced Convenience Methods**: The newly introduced
+convenience methods cover various aspects such as
+authentication, chunk uploads, exponential back-offs, 
+automatic retries, type checkers which
+help to ensure that you’re using variables correctly, 
+and much more.
+
+| Platform                          | Maintained?  | API Parity |
+| --------------------------------- | ----------- | ------- |
+| [Python SDK][pythongensdk] (Beta)      | Yes         | Full    |
+| [Typescript SDK][tsgensdk] (Beta)      | Yes         | Full    |
+
+### SDKs and CLI
 
 | | Tool | Maintained? | Parity? |
 |-|------|-------------|---------|
@@ -58,7 +93,8 @@ members. These tools do not receive regular product updates or security updates.
 > 
 > **API Parity:**  Projects with limited API parity can lack some functionality as new features are not automatically rolled out to these projects as they become available for the Box Platform. If you are a Box customer on a premium support plan, please contact customer services for any urgent feature requests for these tools.
 
-
+[pythongensdk]: https://github.com/box/box-python-sdk-gen
+[tsgensdk]: https://github.com/box/box-typescript-sdk-gen
 [javaimg]: images/java.png
 [javasdk]: https://github.com/box/box-java-sdk
 [dotnetimg]: images/dotnet.png
