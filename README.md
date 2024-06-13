@@ -7,42 +7,48 @@
 The following tools are actively developed and supported by Box. These tools
 receive regular product updates, as well as security updates. 
 
-## SDK Client Libraries & CLI
+# SDKs & Tools
+
+The following SDKs and tools are developed and supported by Box.
+
+## SDKs
+
+Here you will find a list of SDKs
+you can use to build your application.
+Separately, we have listed the next generation
+Python, Typescript, and .NET SDKs, which are the
+newest addition.
+.NET is still a beta feature, but we encourage
+you to give it a try and explore all the
+features they bring along.
+
 
 ### Next generation SDKs
 
-The latest generation Box Python SDK and Box Typescript
-SDK are designed to elevate the developer
+The latest generation of SDKs are designed to elevate the developer
 experience and streamline your integration
 with the Box Content Cloud.
 
+
 Here's what you can expect from the new SDKs:
 
-* **Full API Support**: New Box SDKs empower developers
- with complete coverage of the Box API ecosystem.
- You can access all the latest features and
-functionalities offered by Box and build feature-rich applications.
-* **Rapid API Updates**: The new auto-generation development
-approach allows for adding Box APIs to
-SDKs at a much faster pace (in a matter of days). 
-This means you can leverage the most up-to-date
-features in your applications without delay.
-* **Embedded Documentation**:  All objects and parameters
-are documented directly in the source code of the SDK
-so all the necessary information is stored in one place.
-* **Enhanced Convenience Methods**: The newly introduced
-convenience methods cover various aspects such as
-authentication, chunk uploads, exponential back-offs, 
-automatic retries, type checkers which
-help to ensure that you’re using variables correctly, 
-and much more.
+* **Full API Support**: New Box SDKs empower developers with complete coverage of the Box API ecosystem. You can access all the latest features and functionalities offered by Box and build feature-rich applications.
+* **Rapid API Updates**: The new auto-generation development approach allows for adding Box APIs to SDKs at a much faster pace (in a matter of days). This means you can leverage the most up-to-date features in your applications without delay.
+* **Embedded Documentation**:  All objects and parameters are documented directly in the source code of the SDK so all the necessary information is stored in one place.
+* **Enhanced Convenience Methods**: The newly introduced convenience methods cover various aspects such as authentication, chunk uploads, exponential back-offs, automatic retries, type checkers which help to ensure that you’re using variables correctly, and much more.
 
 | Platform                          | Maintained?  | API Parity |
 | --------------------------------- | ----------- | ------- |
-| [Python SDK][pythongensdk] (Beta)      | Yes         | Full    |
-| [Typescript SDK][tsgensdk] (Beta)      | Yes         | Full    |
+| [Python Gen SDK][pythongensdk]    | Yes         | Full    |
+| [Typescript Gen SDK][tsgensdk]     | Yes         | Full    |
+| [.NET SDK][dotnetgensdk] (Beta)      | Yes         | Full    |
 
-### SDKs and CLI
+
+
+### SDKs
+
+The table lists Box SDKs that you can use
+when building your applications.
 
 | | Tool | Maintained? | Parity? |
 |-|------|-------------|---------|
@@ -57,6 +63,25 @@ and much more.
 > **Maintained:** Fully maintained projects are actively developed by Box. They receive the latest security updates and new features. For support with these projects please visit GitHub or [our Platform support forum](https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum).
 > 
 > **API Parity**:  Projects with full API parity are actively updated with all platform functionality as this becomes available on the Box Platform. Projects with partial API parity lack some functionality while we work on bringing these projects to full parity.
+
+## Box CLI
+
+Box CLI is a user-friendly command line tool which
+allows both technical and non-technical users to
+leverage Box API to perform routine or bulk actions.
+
+| Platform                          | Maintained?  | API Parity |
+| --------------------------------- | ----------- | ------- |
+| [CLI][cli]                        | Yes         | Full    |
+
+## Postman Collection
+
+[Postman][postman] is a tool that lets you build and test HTTP requests in an
+easy-to-use interface without configuring a full development environment. The
+**Box Postman Collection** is a set of preconfigured requests that make it
+possible to get started with the Box API without having to manually configure
+the requests.
+
 
 ## UI Libraries
 
@@ -95,6 +120,7 @@ members. These tools do not receive regular product updates or security updates.
 
 [pythongensdk]: https://github.com/box/box-python-sdk-gen
 [tsgensdk]: https://github.com/box/box-typescript-sdk-gen
+[dotnetgensdk]: https://github.com/box/box-dotnet-sdk-gen
 [javaimg]: images/java.png
 [javasdk]: https://github.com/box/box-java-sdk
 [dotnetimg]: images/dotnet.png
@@ -122,6 +148,7 @@ members. These tools do not receive regular product updates or security updates.
 [chromesdk]: https://github.com/box/Chrome-App-SDK
 [rimg]: images/rlogo.png
 [rsdk]: https://github.com/r-box/boxr
+[postman]: https://developer.box.com/guides/tooling/postman/quick-start
 
 # Collection of sample code
 You can find sample code catalog on [developer website](https://developer.box.com/sample-code/). The abovementioned section aggregates existing demo application built with Box SDKs or CLI and showcases the functionality. Projects that are built by and for the Box developer community.
