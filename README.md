@@ -37,11 +37,12 @@ Here's what you can expect from the new SDKs:
 * **Embedded Documentation**:  All objects and parameters are documented directly in the source code of the SDK so all the necessary information is stored in one place.
 * **Enhanced Convenience Methods**: The newly introduced convenience methods cover various aspects such as authentication, chunk uploads, exponential back-offs, automatic retries, type checkers which help to ensure that you’re using variables correctly, and much more.
 
-| Platform                          | Maintained?  | API Parity |
-| --------------------------------- | ----------- | ------- |
-| [Python Gen SDK][pythongensdk]    | Yes         | Full    |
-| [Typescript Gen SDK][tsgensdk]     | Yes         | Full    |
-| [.NET SDK][dotnetgensdk] (Beta)      | Yes         | Full    |
+| Platform                             | Maintained?  | API Parity |
+|--------------------------------------| ----------- | ------- |
+| [Python Gen SDK][pythongensdk]       | Yes         | Full    |
+| [Typescript Gen SDK][tsgensdk]       | Yes         | Full    |
+| [.NET Gen SDK][dotnetgensdk]         | Yes         | Full    |
+| [Swift Gen SDK][swiftgensdk] (Beta) | Yes         | Full    |
 
 
 
@@ -121,6 +122,7 @@ members. These tools do not receive regular product updates or security updates.
 [pythongensdk]: https://github.com/box/box-python-sdk-gen
 [tsgensdk]: https://github.com/box/box-typescript-sdk-gen
 [dotnetgensdk]: https://github.com/box/box-dotnet-sdk-gen
+[swiftgensdk]: https://github.com/box/box-swift-sdk-gen
 [javaimg]: images/java.png
 [javasdk]: https://github.com/box/box-java-sdk
 [dotnetimg]: images/dotnet.png
