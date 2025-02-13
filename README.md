@@ -42,7 +42,8 @@ Here's what you can expect from the new SDKs:
 | [Python Gen SDK][pythongensdk]       | Yes         | Full    |
 | [Typescript Gen SDK][tsgensdk]       | Yes         | Full    |
 | [.NET Gen SDK][dotnetgensdk]         | Yes         | Full    |
-| [Swift Gen SDK][swiftgensdk] (Beta) | Yes         | Full    |
+| [Java Gen SDK][javagensdk] (Beta)    | Yes         | Full    |
+| [Swift Gen SDK][swiftgensdk] (Beta)  | Yes         | Full    |
 
 
 
@@ -122,6 +123,7 @@ members. These tools do not receive regular product updates or security updates.
 [pythongensdk]: https://github.com/box/box-python-sdk-gen
 [tsgensdk]: https://github.com/box/box-typescript-sdk-gen
 [dotnetgensdk]: https://github.com/box/box-dotnet-sdk-gen
+[javagensdk]: https://github.com/box/box-java-sdk-gen
 [swiftgensdk]: https://github.com/box/box-swift-sdk-gen
 [javaimg]: images/java.png
 [javasdk]: https://github.com/box/box-java-sdk
