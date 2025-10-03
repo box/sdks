@@ -29,6 +29,22 @@ when building your applications.
 >
 > **API Parity**:  Projects with full API parity are actively updated with all platform functionality as this becomes available on the Box Platform. Projects with partial API parity lack some functionality while we work on bringing these projects to full parity.
 
+## Next generation SDKs
+
+### 🚨 Notice
+
+As of September 17, 2025 Box Next Generation SDKs are no longer supported as separate artifacts. Don't worry, your existing code will continue to work without changes. You can still use your applications based on Box Next Generation SDKs with no impact, but you won't receive new features, updates, or bug fixes. We will be still providing patches for security vulnerabilities until version that combines both artifacts is released. In keeping with industry best practices, we are consolidating the Box Next Generation SDKs and Box core SDKs into a single package for each programming language. This makes migration efforts much easier and allows to seamlessly add new capabilities to existing applications still powered by the manually maintained Box core SDKs. Box Next Generation SDKs are available as the latest major version release (v10) of Box core SDKs. Currently, it’s available as a separate branch called `sdk-gen`.
+
+For more details, see our [SDK versioning strategy document][versioning].
+
+| Platform                            | Maintained?           | API Parity |
+| ----------------------------------- | --------------------- | ---------- |
+| [Python Gen SDK][pythongensdk]      | 🔸 Only critical bugs | 🔸Partial  |
+| [Typescript Gen SDK][tsgensdk]      | 🔸 Only critical bugs | 🔸Partial  |
+| [.NET Gen SDK][dotnetgensdk]        | 🔸 Only critical bugs | 🔸Partial  |
+| [Java Gen SDK][javagensdk] (Beta)   | 🔸 Only critical bugs | 🔸Partial  |
+| [Swift Gen SDK][swiftgensdk] (Beta) | 🔸 Only critical bugs | 🔸Partial  |
+
 ## Box CLI
 
 Box CLI is a user-friendly command line tool which
@@ -37,7 +53,7 @@ leverage Box API to perform routine or bulk actions.
 
 | Platform   | Maintained? | API Parity |
 | ---------- | ----------- | ---------- |
-| [CLI][cli] | Yes         | Full       |
+| [CLI][cli] | Yes         | 🔸Partial  |
 
 ## Postman Collection
 
@@ -57,11 +73,20 @@ preview files on Box.
 | ![Browse][browseimg]                                                        | ![Share][shareimg]                                                                   | ![Preview][previewimg]                                                                           |
 | **Browse** Navigate and manipulate your files on Box using our pre-built UI | **Share** Share files with our pre-built UI elements for file & folder collaboration | **Preview** Preview over 120 files types, from PDFs to HD videos, with a rich preview experience |
 
+### Box UI Elements
+
+Box UI Elements are pre-built UI components that allow developers to add elements of the main Box web application into their own applications. They can be used to navigate through, upload, preview, and select content stored on Box and are available both as React components and framework-agnostic JavaScript libraries.
+
+|              | Platform                                              | Maintained? |
+| ------------ | ----------------------------------------------------- | ----------- |
+| ![JS][jsimg] | **Javascript** [Box UI Elements](doc:box-ui-elements) | ☑️ Full     |
+
+### Mobile
+
 |                        | Platform                                                                                                                                                                                          | Maintained?                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 | ![Android][androidimg] | **Android** [Browse SDK](https://github.com/box/box-android-browse-sdk), [Share SDK](https://github.com/box/box-android-share-sdk), [Preview SDK](https://github.com/box/box-android-preview-sdk) | End of support as of May 31st, 2023 |
 | ![iOS][iosimg]         | **iOS** [Browse SDK](https://github.com/box/box-ios-browse-sdk), [Share SDK](https://github.com/box/box-ios-share-sdk), [Preview SDK](https://github.com/box/box-ios-preview-sdk)                 | 🔸 Only critical bugs               |
-| ![JS][jsimg]           | **Javascript** [Box UI Elements](doc:box-ui-elements)                                                                                                                                             | ☑️ Full                             |
 
 > **Maintained:** Fully maintained projects are actively developed by Box. They receive the latest security updates and new features. For support with these projects please visit GitHub or [our Platform support forum](https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum).
 
@@ -115,6 +140,7 @@ members. These tools do not receive regular product updates or security updates.
 [rimg]: images/rlogo.png
 [rsdk]: https://github.com/r-box/boxr
 [postman]: https://developer.box.com/guides/tooling/postman/quick-start
+[versioning]: https://developer.box.com/guides/tooling/sdks/sdk-versioning/
 
 # Collection of sample code
 
