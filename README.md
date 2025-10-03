@@ -22,13 +22,22 @@ when building your applications.
 | [![.NET][dotnetimg]][dotnetsdk]      | [.NET SDK][dotnetsdk] - Use the Box content APIs from your .NET application                   | ☑️ Full                             | ☑️ Full   |
 | [![Python][pythonimg]][pythonsdk]    | [Python SDK][pythonsdk] - Use the Box content APIs from your Python application               | ☑️ Full                             | ☑️ Full   |
 | [![Node][nodeimg]][nodesdk]          | [Node SDK][nodesdk] - Use the Box content APIs from your JavaScript or TypeScript application | ☑️ Full                             | ☑️ Full   |
-| [![CLI][cliimg]][cli]                | [CLI][cli] - Use the Box content APIs from your command line                                  | ☑️ Full                             | ☑️ Full   |
 | [![iOS][iosimg]][iossdk]             | [iOS Content SDK][iossdk] - Use the Box content APIs from your Swift application              | ☑️ Full                             | ☑️ Full   |
 | [![Android][androidimg]][androidsdk] | [Android Content SDK][androidsdk] - Use the Box content APIs from your Android app            | End of support as of May 31st, 2023 | 🔸Partial |
 
 > **Maintained:** Fully maintained projects are actively developed by Box. They receive the latest security updates and new features. For support with these projects please visit GitHub or [our Platform support forum](https://community.box.com/box-platform-5).
 >
 > **API Parity**:  Projects with full API parity are actively updated with all platform functionality as this becomes available on the Box Platform. Projects with partial API parity lack some functionality while we work on bringing these projects to full parity.
+
+## Box CLI
+
+Box CLI is a user-friendly command line tool which
+allows both technical and non-technical users to
+leverage Box API to perform routine or bulk actions.
+
+| Platform   | Maintained? | API Parity |
+| ---------- | ----------- | ---------- |
+| [CLI][cli] | Yes         | Full       |
 
 ## Postman Collection
 
